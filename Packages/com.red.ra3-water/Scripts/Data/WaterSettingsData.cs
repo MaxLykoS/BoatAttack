@@ -6,7 +6,7 @@ namespace RA3WaterSystem.Data
 	/// <summary>
 	/// This scriptable object stores teh graphical/rendering settings for a water system
 	/// </summary>
-    [System.Serializable][CreateAssetMenu(fileName = "WaterSettingsData", menuName = "WaterSystem/Settings", order = 0)]
+    [System.Serializable][CreateAssetMenu(fileName = "WaterSettingsData", menuName = "RA3WaterSystem/Settings", order = 0)]
     public class WaterSettingsData : ScriptableObject
     {
 		public GeometryType waterGeomType; // The type of geometry, either vertex offset or tessellation

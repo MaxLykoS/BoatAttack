@@ -7,7 +7,7 @@ namespace RA3WaterSystem.Data
     /// <summary>
     /// This scriptable object contains setting for how the water looks visually
     /// </summary>
-    [System.Serializable][CreateAssetMenu(fileName = "WaterSurfaceData", menuName = "WaterSystem/Surface Data", order = 0)]
+    [System.Serializable][CreateAssetMenu(fileName = "WaterSurfaceData", menuName = "RA3WaterSystem/Surface Data", order = 0)]
     public class WaterSurfaceData : ScriptableObject
     {
         public float _waterMaxVisibility = 40.0f;
