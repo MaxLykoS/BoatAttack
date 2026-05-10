@@ -1,0 +1,20 @@
+{
+    "name": "RA3WaterSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ba12f46cfd93f7f42b832225ac87d4c0",
+        "GUID:b75d3cd3037d383a8d1e2f9a26d73d8a",
+        "GUID:d8b63aba1907145bea998dd612889d6b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
