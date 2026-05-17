@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e73e41b71c5f541679f1bb37dee026c1, type: 3}
+  m_Script: {fileID: 11500000, guid: bd4c2a3577e642b4ca699ce320c1ddf4, type: 3}
   m_Name: WaterResources
   m_EditorClassIdentifier: 
   defaultFoamRamp: {fileID: 2800000, guid: 4098762bce32f44b9b7c56531d1a988e, type: 3}
-  defaultFoamMap: {fileID: 2800000, guid: ca439406e806ecf44a9586510be9477d, type: 3}
-  defaultSurfaceMap: {fileID: 2800000, guid: f395b7d64f44848c6a3cba1f1173fe90, type: 3}
+  defaultFoamMap: {fileID: 2800000, guid: ee32324caf63f2947af3f4a816f45c7a, type: 3}
+  defaultSurfaceMap: {fileID: 2800000, guid: 00d31f994dae3c44a973714ee54a0c2f, type: 3}
   defaultSeaMaterial: {fileID: 2100000, guid: 4849d4d15a9cb42eb9533ae935e2630b, type: 2}
   defaultWaterMeshes:
   - {fileID: 4300036, guid: 074aa8ca109924e18baf19f3e26665b6, type: 3}
