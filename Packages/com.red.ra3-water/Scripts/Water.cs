@@ -85,7 +85,7 @@ namespace RA3WaterSystem
 
         private void OnApplicationQuit()
         {
-            GerstnerWavesJobs.Cleanup();
+
         }
 
         void Cleanup()
@@ -177,7 +177,7 @@ namespace RA3WaterSystem
 
         private void LateUpdate()
         {
-            GerstnerWavesJobs.UpdateHeights();
+
         }
 
         public void FragWaveNormals(bool toggle)
@@ -248,9 +248,6 @@ namespace RA3WaterSystem
                 Shader.DisableKeyword("USE_STRUCTURED_BUFFER");
                 Shader.SetGlobalVectorArray(WaveData, GetWaveData());
             }
-            //CPU side
-            if(GerstnerWavesJobs.Initialized == false && Application.isPlaying)
-                GerstnerWavesJobs.Init();
         }
 
         private Vector4[] GetWaveData()
